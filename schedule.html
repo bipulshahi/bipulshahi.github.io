@@ -18,22 +18,16 @@ img {
   border-radius: 50%;
   padding: 2px;
   width: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
   
-  .column {
-  float: left;
-  width: 20%;
-}
-  .row > .column {
-  padding: 5px;
+ .row {
+  display: flex;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column {
+  flex: 20%;
+  padding: 5px;
+  width: 100%;
 }
   
 </style>
